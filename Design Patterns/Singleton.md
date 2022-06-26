@@ -59,7 +59,7 @@ public class AirforceOne {
     }
 }
 
-public class Client {
+class Client {
 
     public void main() {
         AirforceOne airforceOne = AirforceOne.getInstance();
