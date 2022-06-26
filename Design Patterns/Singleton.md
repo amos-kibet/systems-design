@@ -8,7 +8,7 @@
 
 - The singleton design pattern solves problems by allowing it to:
 
-  - Ensure that a class only has one instance.
+  - Ensure that a class has only one instance.
   - Easily access the sole instance of a class.
   - Control its instantiation.
   - Restrict the number of instances.
@@ -20,7 +20,7 @@
 
 #### How To.
 
-> Make the constructor private of the class we intned to define as singleton.
+> Make the constructor private of the class we intend to define as singleton.
 > Ensure that only a single instance of a class exists and a global point of access to it exists.
 
 #### Example.
@@ -37,7 +37,7 @@ public class AirforceOne {
     // The sole instance of the class
     private static AirforceOne onlyInstance;
 
-    // Make the constructor private so its only accessible to
+    // Make the constructor private so it's only accessible to
     // members of the class.
     private AirforceOne() {
     }
