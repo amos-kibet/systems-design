@@ -52,7 +52,7 @@ public class AirforceOne {
         // Only instantiate the object when needed.
         if (onlyInstance == null) {
           // Make the instantiation process thread-safe
-            private static AirforceOne onlyInstance = new AirforceOne();
+          onlyInstance = new AirforceOne();
         }
 
         return onlyInstance;
